@@ -1,0 +1,20 @@
+{
+  "name": "cursoasincronismoproyecto",
+  "version": "1.0.0",
+  "description": "proyecto de una landing page usando una API de youtube para un curso de asincronismo con JS vanilla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brun02K20/cursoAsincronismoProyecto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brun02K20/cursoAsincronismoProyecto/issues"
+  },
+  "homepage": "https://github.com/Brun02K20/cursoAsincronismoProyecto#readme"
+}
