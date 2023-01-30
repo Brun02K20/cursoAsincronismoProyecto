@@ -1,4 +1,4 @@
-const API_YPUTUBE = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCw05fUBPwmpu-ehXFMqfdMw&part=snippet%2Cid&order=date&maxResults=5';
+const API_YOUTUBE = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCw05fUBPwmpu-ehXFMqfdMw&part=snippet%2Cid&order=date&maxResults=5';
 
 // aca seleccionamos el contenedor donde vamos a poner los videos
 const content = null || document.getElementById("content");
@@ -23,7 +23,7 @@ async function obtenerDatosConFetch(urlAPI) {
     //Dentro implementamos la lógica necesaria para hacer el llamado a la API, obtener los elementos y mostrarlos en html
     //Se implementa try y catch
     try {
-        let videos = await obtenerDatosConFetch(API);
+        let videos = await obtenerDatosConFetch(API_YOUTUBE);
         // ya almacenados los videos, tenemos que mostrarlos en el HTML, para eso tenemos que hacer exactamente lo mismo que hicimos en el curso practico de JS, crear la plantilla HTML y hacer los inners, los appendchild, etc.
 
         // pero lo vamos a hacer de otra forma, mediante una plantilla/template, que nos permitira iterar por cada uno de los elementos y se hace asi:
